@@ -38,7 +38,7 @@ Select all valid options for deploying etcd on a Kubernetes cluster. (multiple c
 
 <details><summary>Answer</summary>
 <p>
-The correct answer is 1 and 2. [Etcd](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/) can be deployed on a single control plane for testing purposes. In production, it makes more sense to set up a HA cluster with multiple etcd instances.
+The correct answer is 1 and 2. <a href="https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/">Etcd</a> can be deployed on a single control plane for testing purposes. In production, it makes more sense to set up a HA cluster with multiple etcd instances.
 </p>
 </details>
 
@@ -53,7 +53,7 @@ Where do you keep client certificates used to communicate with a Kubernetes clus
 
 <details><summary>Answer</summary>
 <p>
-The correct answer is 2. Every user entry in the [kubeconfig file](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/) will have to have a base64-encoded value for the client certificate. This information will be sent every time you make a call based on the user selected for the current context.
+The correct answer is 2. Every user entry in the <a href="https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/">kubeconfig file</a> will have to have a base64-encoded value for the client certificate. This information will be sent every time you make a call based on the user selected for the current context.
 </p>
 </details>
 
@@ -68,7 +68,7 @@ Configuring audit logging rules with RequestResponse may have an impact on what 
 
 <details><summary>Answer</summary>
 <p>
-The correct answer is 4. The [audit log level](https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/#audit-policy) RequestResponse captures the most information possible for incoming requests. Therefore, you will need to make sure you can store the data on the configured backend. CPU and memory will not be impacted significantly by configuring audit logging.
+The correct answer is 4. The <a href="https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/#audit-policy">audit log policy</a> RequestResponse captures the most information possible for incoming requests. Therefore, you will need to make sure you can store the data on the configured backend. CPU and memory will not be impacted significantly by configuring audit logging.
 </p>
 </details>
 
@@ -83,6 +83,6 @@ A Network Policy configures an egress rule. What does it configure? (single choi
 
 <details><summary>Answer</summary>
 <p>
-The correct answer is 2. [Network policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/) control Pod-to-Pod communication. Ingress rules configure incoming network traffic to a Pod. Egress rules configure outgoing traffic from a Pod.
+The correct answer is 2. <a href="https://kubernetes.io/docs/concepts/services-networking/network-policies/">Network policies</a> control Pod-to-Pod communication. Ingress rules configure incoming network traffic to a Pod. Egress rules configure outgoing traffic from a Pod.
 </p>
 </details>
