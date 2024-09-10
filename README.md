@@ -44,12 +44,12 @@ The correct answer is 1 and 2. <a href="https://kubernetes.io/docs/tasks/adminis
 
 **Quiz 3:**
 
-Where do you keep client certificates used to communicate with a Kubernetes cluster using kubectl? (single choice selection)
+Where do you keep client certificates used to communicate with a Kubernetes cluster using `kubectl`? (single choice selection)
 
 1. In the `KUBECONFIG` environment variable.
-2. In the values of the client-certificate-data and client-key-data attributes in the kubeconfig file.
+2. In the values of the `client-certificate-data` and `client-key-data attributes` in the `kubeconfig` file.
 3. In the file `$USER_HOME/.kube/certs`.
-4. Client certificates do not need to be stored on the machine running kubectl.
+4. Client certificates do not need to be stored on the machine running `kubectl`.
 
 <details><summary>Answer</summary>
 <p>
